@@ -87,3 +87,18 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 576px) {
+  .homepage-image {
+    display: none;
+  }
+  .homepage-text {
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 52px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+}
